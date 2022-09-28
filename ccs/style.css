@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+[class*="container"]{
+    max-width: 810px;
+    margin: 0 auto;
+    }
+
+.title {
+    font-family: "Lato";
+    font-weight: 900;
+    color: #1E212C;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+
+.subtitle{
+    font-family: "Lato";
+    font-weight: 700;
+    color: #1E212C;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.quotes
+.quotes__container{
+    font-family: "Lato";
+    font-weight: 700;
+    color: #1E212C;
+    background: url("../img/quotes.png") 0 0px no-repeat;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 48px;
+    padding-left: 58px;
+}
+
+.text{
+    margin-bottom: 24px;
+}
+
+.text p{
+    font-family: "Lato";
+    font-weight: 400;
+    color: #424551;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 24px;
+}
+
+.text li{
+    font-family: "Lato";
+    font-weight: 400;
+    color: #424551;
+    background: url("../img/check.png") 0 5px no-repeat;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 4px;
+    padding-left: 32px;
+}
+
+.text_2{
+    font-family: "Lato";
+    font-weight: 400;
+    color: #424551;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 48px;
+}
+
+.image{
+    max-width: 100%;
+    margin: 0px 0px 53px 0px;
+	border-radius: 4px;
+    margin-bottom: 60px;
+}
+
+.gradient{
+    font-family: "Lato";
+    color: rgb(150, 16, 150);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    max-width: 100%;
+    background: linear-gradient(55.95deg, rgba(60, 156, 201, 0.3) 0%, rgba(112, 4, 1, 0.3) 100%);
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+
+.repeat_x__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') top / 160px , #676fb6;
+	margin-bottom: 60px;
+    font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 400px;
+	background-repeat: repeat-x;
+}
+
+.repeat_y__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') top left / 200px , #676fb6;
+	margin-bottom: 60px;
+    font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 810px;
+	background-repeat: repeat-y;
+}
+
+.position_left__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') top left / 200px , #67b6ac;
+	margin-bottom: 60px;
+    font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 810px;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.position_center__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') top left / 200px , #67b6ac;
+	margin-bottom: 60px;
+    font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 810px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.position_right__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') top left / 200px , #67b6ac;
+	margin-bottom: 60px;
+    font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 810px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.attachment__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') top left / 200px , #d095e2;
+	margin-bottom: 60px;
+    font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 810px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.repeat__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') top left / 200px , #676fb6;
+	margin-bottom: 60px;
+    font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 810px;
+	/* background-repeat: repeat-y; */
+}
+
+.scale__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') 0 0/auto no-repeat;
+	margin-bottom: 60px;
+	font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 300px;
+}
+
+.scale_size__container{
+    font-family: "Lato";
+    background: url('../img/mcduck.png') 0 0/auto no-repeat;
+    background-size: contain;
+	margin-bottom: 60px;
+	font-weight: 700;
+    text-align: center;
+	font-size: 20px;
+	height: 810px;
+}
